@@ -1,0 +1,126 @@
+.wrapper {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.oasis-img {
+  width: 64%;
+  height: 100vh;
+}
+.choice-registration {
+  width: 100%;
+  margin-left: 127px;
+}
+.question {
+    padding-top: 70px;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: right;
+    color: #8692A6;
+    margin-right: 81px;
+    span {
+        font-family: "Inter";
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        color: rgb(73, 83, 230);
+        cursor: pointer;
+    }
+}
+.join {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #000000;
+    padding-top: 135px;
+}
+.reference {
+    width: 415px;
+    height: 56px;
+    margin: 0;
+    font-family: 'inter';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #8692A6;
+    padding-top: 10px;
+}
+.account {
+    width: 426px;
+    height: 108px;
+    margin: 0;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    box-shadow: 0px 2px 14px 1px #0000000F;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    transition: all 1s ease;
+}
+.individual {
+    margin: 0;
+    padding-left: 28px;
+}
+.individual h2{
+    font-family: 'inter';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    color: #000000;
+}
+.individual p {
+    font-family: 'inter';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    color: #8692A6;
+    width: 258px;
+    height: 34px;
+}
+.arrow-right {
+    margin: 0;
+    display: none;
+    transition: all 1s ease;
+}
+.user-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-left: 28px;
+    width: 52px;
+    height: 52px;
+}
+.user-icon {
+    position: absolute;
+}
+.user-color path {
+    transition: all 1s ease;
+}
+.user-icon path {
+    transition: all 1s ease;
+}
+.account:hover {
+    border: 1px solid #1565D8;
+    background-color: #F5F9FF;
+    box-shadow: 0px 4px 14px 1px #0000000A;
+    cursor: pointer;
+    .user-color path{
+        fill: #1565D8;
+        transition: all 1s ease;
+    }
+    .user-icon path {
+        fill: #FFFFFF;
+        transition: all 1s ease;
+    }
+    .arrow-right {
+        display: flex;
+    }
+}
