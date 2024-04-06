@@ -4,13 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainOasisComponent } from './main-oasis/main-oasis.component';
-import { RegistrationIndividualComponent } from './registration-individual/registration-individual.component';
+import { RegistrationComponent } from './main-oasis/registration/registration.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainOasisComponent,
-    RegistrationIndividualComponent
+    RegistrationComponent
   ],
   imports: [
     BrowserModule,
