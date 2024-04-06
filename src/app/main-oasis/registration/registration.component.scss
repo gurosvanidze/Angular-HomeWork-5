@@ -1,0 +1,39 @@
+.registration {
+    width: 100%;
+    margin-left: 53px;
+}
+.return {
+    width: 60px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin: 0;
+    cursor: pointer;
+    img {
+        width: 20px;
+        height: 20px;
+    }
+    p {
+        width: 39px;
+        height: 19px;
+        font-family: 'inter';
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19.36px;
+        color: #8692A6;
+    }
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.steps h4 {
+    width: 80px;
+    height: 17px;
+    font-family: 'inter';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: right;
+}

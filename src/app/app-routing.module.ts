@@ -12,12 +12,10 @@ const routes: Routes = [
   {
     path: 'main-oasis/registration',
     component: MainOasisComponent,
-    children: [
-      {
-        path: 'individual-STEP-01.03',
-        component: RegistrationComponent,
-      },
-    ],
+  },
+  {
+    path: 'registration/individual-STEP-01.03',
+    component: RegistrationComponent,
   },
 ];
 

@@ -7,16 +7,9 @@ import { MainOasisComponent } from './main-oasis/main-oasis.component';
 import { RegistrationComponent } from './main-oasis/registration/registration.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    MainOasisComponent,
-    RegistrationComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  declarations: [AppComponent, MainOasisComponent, RegistrationComponent],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

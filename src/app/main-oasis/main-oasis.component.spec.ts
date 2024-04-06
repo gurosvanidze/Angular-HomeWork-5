@@ -8,9 +8,8 @@ describe('MainOasisComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MainOasisComponent ]
-    })
-    .compileComponents();
+      declarations: [MainOasisComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(MainOasisComponent);
     component = fixture.componentInstance;
